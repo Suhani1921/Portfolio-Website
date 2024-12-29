@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+#hero {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.highlight {
+    color: #ffd700;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+/* About Section */
+#about {
+    background: #f9f9f9;
+    text-align: center;
+}
+
+/* Card Customization */
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* Skills Section */
+#skills .col-md-4 {
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+    color: white;
+}
+/* LinkedIn Link Styling */
+.linkedin-link {
+    color: pink; /* LinkedIn's official blue */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold;
+}
+
+.linkedin-link:hover {
+    color: hotpink; /* Darker shade for hover effect */
+}
+
+/* GitHub Link Styling */
+.github-link {
+    color: pink; /* GitHub's dark gray */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold;
+}
+
+.github-link:hover {
+    color: hotpink; /* Black for hover effect */
+}
+
